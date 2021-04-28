@@ -5,6 +5,7 @@ if exists ("b:current_syntax")
   finish
 endif
 
+syn keyword ptStmt export import module
 syn keyword ptStmt break return continue
 syn keyword ptCond if else switch case default
 syn keyword ptRepeat while for
